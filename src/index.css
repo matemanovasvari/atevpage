@@ -13,10 +13,12 @@ html, body, #root {
   color: #fff;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-bar {
-  position: relative;
+  position: absolute;
   z-index: 10;
   display: flex;
   justify-content: space-around;
@@ -26,6 +28,7 @@ html, body, #root {
   height: 50px;
   margin: 15px;
   border-radius: 20px;
+  top: 0;
 }
 
 .nav-button button {

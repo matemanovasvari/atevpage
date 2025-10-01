@@ -49,6 +49,8 @@ function NotFound() {
           return <div key={i} className="moving-dot" style={style} />;
         })}
       </div>
+
+      <h1>404 az oldal nem található!</h1>
     </div>
   );
 }
